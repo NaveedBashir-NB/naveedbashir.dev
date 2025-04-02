@@ -1,14 +1,15 @@
 {
+  "homepage": "https://your-github-username.github.io/repository-name",
   "name": "naveedbashir",
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev --turbopack",
+    "dev": "next dev",
     "build": "next build",
-    "start": "next start",
-    "lint": "next lint",
     "export": "next export",
-    "deploy": "next build && next export && gh-pages -d out"
+    "deploy": "npm run build && npm run export && gh-pages -d out",
+    "start": "next start",
+    "lint": "next lint"
   },
   "dependencies": {
     "class-variance-authority": "^0.7.1",
