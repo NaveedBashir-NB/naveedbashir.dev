@@ -91,10 +91,10 @@ const projects = [
 export default function Portfolio() {
   return (
     <AuroraBackground>
-      <section id="portfolio" className="relative z-30 inset-0 flex items-center justify-center font-bold px-4 py-20">
+      <section id="portfolio" className="relative z-30 inset-0 flex items-center justify-center font-bold px-4 py-26">
         <motion.div
           className="max-w-6xl mx-auto text-center"
-          initial={{ opacity: 0, y: 50 }}
+          initial={{ opacity: 1, y: 0 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, ease: "easeInOut" }}
         >
@@ -109,7 +109,7 @@ export default function Portfolio() {
           </p>
 
           {/* Grid Layout */}
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-10">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-4">
             {projects.map((project) => (
               <motion.div
                 key={project.id}

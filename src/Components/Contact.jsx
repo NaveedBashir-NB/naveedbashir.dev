@@ -47,7 +47,7 @@ export default function Contact() {
           <motion.form
             onSubmit={handleSubmit}
             className="mt-8 bg-white/70 backdrop-blur-md shadow-lg rounded-lg p-6 space-y-4 border border-gray-200"
-            initial={{ opacity: 0, scale: 0.9 }}
+            initial={{ opacity: 1, scale: 1 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.5, ease: "easeInOut" }}
           >

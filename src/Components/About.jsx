@@ -13,7 +13,7 @@ export default function About() {
       {/* Wrap the content in motion div for transition effect */}
       <motion.div
         className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 items-center gap-10"
-        initial={{ opacity: 0, y: 50 }}
+        initial={{ opacity: 1, y: 0 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8, ease: "easeInOut" }}
       >

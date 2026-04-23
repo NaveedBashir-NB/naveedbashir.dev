@@ -8,12 +8,12 @@ import { AuroraBackground } from "./ui/aurora-background";
 
 export default function HeroSection() {
   return (
-    <AuroraBackground>
+    <AuroraBackground id="home">
       {/* Wrap the entire content in AuroraBackground Container for color background effect */}
       
       {/* Wrap the content in motion div for transition effect */}
       <motion.div
-        initial={{ opacity: 0.0, y: 40 }}
+        initial={{ opacity: 1, y: 0 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{
           delay: 0.3,

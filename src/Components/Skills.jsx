@@ -11,7 +11,7 @@ export default function Skills() {
       {/* Wrap the content in motion div for transition effect */}
       <motion.div
         className="max-w-6xl mx-auto text-center md:translate-y-16"
-        initial={{ opacity: 0, y: 50 }}
+        initial={{ opacity: 1, y: 0 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8, ease: "easeInOut" }}
       >
