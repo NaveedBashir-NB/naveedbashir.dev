@@ -41,7 +41,7 @@ export default function Testimonials() {
 
   return (
     <AuroraBackground>
-    <section id="testimonials" className="md:h-screen py-16 px-10 md:px-20 ">
+    <section id="testimonials" className="md:h-screen py-2 px-10 md:px-20 ">
       <div className="max-w-5xl mx-auto text-center md:translate-y-16">
         <h2 className="text-3xl md:text-4xl font-bold text-gray-800">
           Happy{" "}

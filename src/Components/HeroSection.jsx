@@ -23,7 +23,7 @@ export default function HeroSection() {
         className="relative flex flex-col gap-4 items-center justify-center px-4"
       >
 
-        <div className="grid grid-cols-1 md:grid-cols-2 md:h-screen px-10 md:px-20 items-center translate-y-16">
+        <div className="grid grid-cols-1 md:grid-cols-2 md:h-screen px-2 md:px-20 items-center translate-y-10">
           {/* Left Section (Text) */}
           <div className="text-center md:text-left space-y-5 m-5">
             <p className="text-2xl font-bold">Hi, 👋 </p>
@@ -35,9 +35,9 @@ export default function HeroSection() {
               <span className="font-bold bg-clip-text bg-no-repeat text-transparent bg-gradient-to-r py-4 from-purple-700 via-violet-500 to-pink-500 [text-shadow:0_0_rgba(0,0,0,0.1)]">
                 <Typewriter
                   words={[
-                    "Full-Stack Developer",
+                    "Full-Stack Enthusiast",
                     "WordPress & SEO Specialist",
-                    "React & Next.js Enthusiast",
+                    "React/Native & Next.js Developer",
                   ]}
                   loop={50}
                   cursor
@@ -63,8 +63,8 @@ export default function HeroSection() {
             <Image
               src={profilePic}
               alt="Developer Illustration"
-              width={400}
-              height={400}
+              width={300}
+              height={300}
               className="object-cover rounded-full shadow-xl"
               priority
             />

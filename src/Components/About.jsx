@@ -2,7 +2,7 @@
 import React from "react";
 import Image from "next/image";
 import { motion } from "framer-motion";
-import Naveed from "../../public/images/Naveed.jpg";
+import Naveed from "../../public/images/Naveed.png";
 
 export default function About() {
   return (
@@ -27,8 +27,8 @@ export default function About() {
           <Image
             src={Naveed}
             alt="Profile Picture"
-            width={400}
-            height={400}
+            width={700}
+            height={200}
             className="object-cover rounded-full shadow-2xl border-4 border-white"
           />
 
