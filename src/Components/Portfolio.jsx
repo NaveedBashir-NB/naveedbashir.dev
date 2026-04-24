@@ -104,8 +104,8 @@ export default function Portfolio() {
               Portfolio
             </span>
           </h2>
-          <p className="mt-4">
-            Here are some of my recent projects built with React, Next.js, and WordPress using SEO strategies.
+          <p className="my-4 text-lg text-gray-700 leading-relaxed text-justify">
+            Here are some of my recent projects built with React, Next.js, Jinja, Flask, Django, Webflow and WordPress using SEO strategies.
           </p>
 
           {/* Grid Layout */}

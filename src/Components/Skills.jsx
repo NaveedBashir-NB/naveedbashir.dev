@@ -65,7 +65,7 @@ export default function Skills() {
             <FaCode className="text-5xl text-purple-700 mb-4" />
             <h3 className="text-xl font-semibold text-gray-800">Web Development</h3>
             <p className="text-gray-600 mt-2">
-              Expert in <strong>React, Next.js, and modern frontend technologies</strong> to build
+              Expert in <strong>React.js, Next.js, React Native and modern frontend technologies</strong> to build
               <strong> fast and responsive</strong> websites.
             </p>
           </motion.div>
@@ -78,7 +78,7 @@ export default function Skills() {
             <FaWordpress className="text-5xl text-blue-600 mb-4" />
             <h3 className="text-xl font-semibold text-gray-800">WordPress Development</h3>
             <p className="text-gray-600 mt-2">
-              I design and develop <strong>custom WordPress websites</strong> with <strong>Elementor,
+              I design and develop <strong>custom WordPress or Webflow websites</strong> with <strong>Elementor,
               WooCommerce, and SEO optimization.</strong>
             </p>
           </motion.div>

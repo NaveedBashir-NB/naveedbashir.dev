@@ -48,9 +48,9 @@ export default function HeroSection() {
                 />
               </span>
             </h2>
-            <p className="text-gray-600 text-lg leading-relaxed text-justify">
+            <p className="text-gray-700 text-lg leading-relaxed text-justify">
               <b>Full-stack web developer</b> with expertise in{" "}
-              <b>modern frontend technologies</b> like <b>React and Next.js.</b>{" "}
+              <b>modern frontend technologies</b> like <b>React js, Next js, and React Native.</b>{" "}
               Also proficient in{" "}
               <b>WordPress and search engine optimization.</b> Designing{" "}
               <b>fast-loading, SEO-optimized, and highly responsive websites</b>{" "}

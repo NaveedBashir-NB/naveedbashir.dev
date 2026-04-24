@@ -45,7 +45,7 @@ export default function About() {
             </span>
           </h2>
           <p className="text-lg text-gray-700 leading-relaxed text-justify">
-            I am a <b>Full-Stack Developer</b> with expertise in <b>React, Next.js, WordPress, and SEO.</b> Passionate about building <b>fast, SEO-optimized, and highly responsive websites.</b> I help businesses establish a strong online presence through performance-driven solutions.
+            I am a <b>Full-Stack Developer</b> with expertise in <b>React, Next.js, React Native, WordPress, and SEO.</b> Passionate about building <b>fast, SEO-optimized, and highly responsive websites.</b> I help businesses establish a strong online presence through performance-driven solutions.
           </p>
           <p className="text-lg text-gray-700 text-justify">
             Whether it’s a custom web app or an optimized WordPress site, I
