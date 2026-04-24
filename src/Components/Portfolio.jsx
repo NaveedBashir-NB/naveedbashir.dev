@@ -2,88 +2,77 @@
 import React from "react";
 import { motion } from "framer-motion";
 import Image from "next/image";
-import { AuroraBackground } from "./ui/aurora-background"; // Import AuroraBackground
-
-import MealStore from "../../public/images/themealstore.png";
-import Blog from "../../public/images/khnworld.png";
-import TrueGrade from "../../public/images/truegrade.png";
-import NBPortfolio from "../../public/images/portfolio.png";
-import Clock from "../../public/images/digitalclock.png";
-import Resume from "../../public/images/resumebuilder.png";
-import NCEC from "../../public/images/ncec.png";
-import FoodSafety from "../../public/images/foodsafety.png";
-import HomeManager from "../../public/images/homemanager.png";
-import NBAccounts from "../../public/images/nbaccounts.png";
+import { AuroraBackground } from "./ui/aurora-background"; 
 
 const projects = [
   {
     id: 10,
     title: "NB Accounts",
     description: "Developed an advanced-level accounts management application using Django and Next.js, integrating multiple apps into a cohesive full-stack system. Focused on scalable architecture, clean code, and efficient data handling with a responsive UI.",
-    image: NBAccounts,
+    image: "/images/nbaccounts.png",
     link: "https://nb-accounts.netlify.app/",
   }, 
   {
     id: 9,
     title: "Food Safety Center",
     description: "Developed a comprehensive food safety information platform using React and Node.js, featuring real-time updates, user engagement tools, and a responsive design for seamless access across devices.",
-    image: FoodSafety,
+    image: "/images/foodsafety.png",
     link: "https://foodsafety.center/",
   },
   {
     id: 8,
     title: "Home Manager",
     description: "Developed a full-stack Home Manager app with Next.js, focusing on scalable architecture, clean code, and responsive design. Implemented efficient state management and backend integration for smooth performance.",
-    image: HomeManager,
+    image: "/images/homemanager.png",
     link: "https://home-manager-app.netlify.app/",
   },
   {
     id: 7,
     title: "TrueGrade Website",
     description: "Designed and developed a modern website using Webflow, focusing on clean UI/UX, responsive layouts, and smooth interactions while leveraging low-code development for fast performance and scalability.",
-    image: TrueGrade,
+    image: "/images/truegrade.png",
     link: "https://truegrade---new.webflow.io/",
   },
   {
     id: 6,
     title: "Food Recipe Website",
     description: "A dynamic recipe site using React, APIs, and Tailwind CSS. Users can search for recipes, view detailed instructions, and explore various cuisines.",
-    image: MealStore,
+    image: "/images/themealstore.png",
     link: "https://themealstore.netlify.app/",
   },
   {
     id: 5,
     title: "WordPress Blog",
     description: "A mobile-friendly blog created with WordPress and Elementor Pro. Features SEO optimization, engaging content, and a user-friendly layout.",
-    image: Blog,
+    image: "/images/khnworld.png",
     link: "https://khnworld.com/",
   },
   {
     id: 4,
     title: "Digital Clock",
     description: "A real-time digital clock built using HTML, CSS, and JavaScript. Displays current date & time dynamically and updates every second.",
-    image: Clock,
+    image: "/images/digitalclock.png",
     link: "https://naveedbashir-nb.github.io/Digital-Clock/",
   },
   {
     id: 3,
     title: "Dynamic Resume Builder",
     description: "An interactive resume builder that allows users to create, customize, and download resumes instantly with a simple UI.",
-    image: Resume,
+    image: "/images/resumebuilder.png",
     link: "https://instantresumebuilder.netlify.app/",
   },
   {
     id: 2,
     title: "NCEC",
     description: "Built the NCEC Learn platform using Next.js, focusing on performance, scalable architecture, and clean, maintainable code while delivering a responsive and seamless user experience.",
-    image: NCEC,
+    image: "/images/ncec.png",
     link: "https://learn.nce.center/",
   },
   {
     id: 1,
     title: "Portfolio Website",
     description: "A personal portfolio website showcasing skills, projects, and experience. Built with React, Next.js, and Tailwind CSS for a modern and responsive design.",
-    image: NBPortfolio,
+    image: "/images/nbportfolio.png",
     link: `${"#home"}`,
   },
 ];
