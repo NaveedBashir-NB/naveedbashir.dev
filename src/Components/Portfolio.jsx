@@ -12,13 +12,13 @@ const projects = [
     image: "/images/nbaccounts.png",
     link: "https://nb-accounts.netlify.app/",
   }, 
-  {
-    id: 9,
-    title: "Food Safety Center",
-    description: "Developed a comprehensive food safety information platform using React and Node.js, featuring real-time updates, user engagement tools, and a responsive design for seamless access across devices.",
-    image: "/images/foodsafety.png",
-    link: "https://foodsafety.center/",
-  },
+  // {
+  //   id: 9,
+  //   title: "Food Safety Center",
+  //   description: "Developed a comprehensive food safety information platform using React and Node.js, featuring real-time updates, user engagement tools, and a responsive design for seamless access across devices.",
+  //   image: "/images/foodsafety.png",
+  //   link: "https://foodsafety.center/",
+  // },
   {
     id: 8,
     title: "Home Manager",
@@ -26,13 +26,13 @@ const projects = [
     image: "/images/homemanager.png",
     link: "https://home-manager-app.netlify.app/",
   },
-  {
-    id: 7,
-    title: "TrueGrade Website",
-    description: "Designed and developed a modern website using Webflow, focusing on clean UI/UX, responsive layouts, and smooth interactions while leveraging low-code development for fast performance and scalability.",
-    image: "/images/truegrade.png",
-    link: "https://truegrade---new.webflow.io/",
-  },
+  // {
+  //   id: 7,
+  //   title: "TrueGrade Website",
+  //   description: "Designed and developed a modern website using Webflow, focusing on clean UI/UX, responsive layouts, and smooth interactions while leveraging low-code development for fast performance and scalability.",
+  //   image: "/images/truegrade.png",
+  //   link: "https://truegrade---new.webflow.io/",
+  // },
   {
     id: 6,
     title: "Food Recipe Website",
@@ -61,20 +61,20 @@ const projects = [
     image: "/images/resumebuilder.png",
     link: "https://instantresumebuilder.netlify.app/",
   },
-  {
-    id: 2,
-    title: "NCEC",
-    description: "Built the NCEC Learn platform using Next.js, focusing on performance, scalable architecture, and clean, maintainable code while delivering a responsive and seamless user experience.",
-    image: "/images/ncec.png",
-    link: "https://learn.nce.center/",
-  },
-  {
-    id: 1,
-    title: "Portfolio Website",
-    description: "A personal portfolio website showcasing skills, projects, and experience. Built with React, Next.js, and Tailwind CSS for a modern and responsive design.",
-    image: "/images/nbportfolio.png",
-    link: `${"#home"}`,
-  },
+  // {
+  //   id: 2,
+  //   title: "NCEC",
+  //   description: "Built the NCEC Learn platform using Next.js, focusing on performance, scalable architecture, and clean, maintainable code while delivering a responsive and seamless user experience.",
+  //   image: "/images/ncec.png",
+  //   link: "https://learn.nce.center/",
+  // },
+  // {
+  //   id: 1,
+  //   title: "Portfolio Website",
+  //   description: "A personal portfolio website showcasing skills, projects, and experience. Built with React, Next.js, and Tailwind CSS for a modern and responsive design.",
+  //   image: "/images/nbportfolio.png",
+  //   link: `${"#home"}`,
+  // },
 ];
 
 export default function Portfolio() {
@@ -93,8 +93,8 @@ export default function Portfolio() {
               Portfolio
             </span>
           </h2>
-          <p className="my-4 text-lg text-gray-700 leading-relaxed text-justify">
-            Here are some of my recent projects built with React, Next.js, Jinja, Flask, Django, Webflow and WordPress using SEO strategies.
+          <p className="my-4 text-lg font-normal text-gray-700 leading-relaxed text-justify">
+            Here are some of my recent projects built with <b>React, Next.js, Jinja, Flask, Django, Webflow and WordPress</b> using SEO strategies.
           </p>
 
           {/* Grid Layout */}
